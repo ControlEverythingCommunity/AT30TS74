@@ -41,6 +41,7 @@ void main()
 	if(read(file, data, 2) != 2)
 	{
 		printf("Error : Input/output Error \n");
+		exit(1);
 	}
 	else
 	{
